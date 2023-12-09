@@ -137,26 +137,49 @@ img{
 }
 
 .skills > h2{
-    font-size: x-large;
+    font-size: xx-large;
     color: black;
 }
 
 .myskills{
-text-align: center;
+text-align:center;
 display: flex;
+/* justify-content: space-between; */
 }
 
 .skill1 > p{
-font-size: large;
+font-size: medium;
 /* border-right: 5px; */
 border-color: black;
 border-style: dotted;
 color: black;
+width: 300px;
+padding: 20px;
 }
 
 .skill2 > p{
-font-size: large;
+font-size: medium;
 border-color: black;
 border-style: dotted;
 color: black;
+width: 300px;
+padding: 20px;
+
 }
+
+.skill3 > p{
+    font-size: medium;
+border-color: black;
+border-style: dotted;
+color: black;
+width: 300px;
+padding: 20px;
+}
+
+.skills > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: gray;
+}
+ .my
