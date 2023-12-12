@@ -6,7 +6,7 @@
 .topbar{
     display: flex;
     justify-content:space-evenly;
-    height: 70px;
+    height: 15%;
     width: 100%;
     background-color: black;
     position: fixed;
@@ -68,7 +68,7 @@ p{
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 500px;
+height: 50%;
 }
 
 .h2{
