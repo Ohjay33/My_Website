@@ -7,7 +7,7 @@
     display: flex;
     /* display: block; */
     justify-content:space-evenly;
-    height: 15%;
+    height: 10%;
     width: 100%;
     background-color: black;
     position: fixed;
@@ -151,8 +151,8 @@ display: flex;
 .skill1 > p{
 font-size: medium;
 /* border-right: 5px; */
-border-color: black;
-border-style: dotted;
+border-color: orange;
+border-style: inset;
 color: black;
 width: 300px;
 padding: 20px;
@@ -160,19 +160,21 @@ padding: 20px;
 
 .skill2 > p{
 font-size: medium;
-border-color: black;
-border-style: dotted;
+border-color: orange;
+border-style:inset;
 color: black;
 width: 300px;
+height: 129px;
 padding: 20px;
 
 }
 
 .skill3 > p{
     font-size: medium;
-border-color: black;
-border-style: dotted;
+border-color: orange;
+border-style: inset;
 color: black;
+height: 129px;
 width: 300px;
 padding: 20px;
 }
