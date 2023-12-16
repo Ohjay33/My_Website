@@ -7,7 +7,7 @@
     display: flex;
     /* display: block; */
     justify-content:space-evenly;
-    height: 10%;
+    height: 11%;
     width: 100%;
     background-color: black;
     position: fixed;
@@ -185,4 +185,26 @@ padding: 20px;
     font-size: 17px;
     color: gray;
 }
- .my
+
+.resume-pic{
+    width: 375px;
+    height: 375px;
+    /* padding-bottom: 30px; */
+    /* border-style: dashed; */
+    /* border-color: burlywood; */
+}
+
+.proj1{
+    display: flex;
+    flex-direction: column;
+    border-style: inset;
+    border-color: black;
+}
+
+.proj1 > a{
+    padding-top: 15px;
+    align-items: center;
+    margin-left: 150px;
+    font-size: larger;
+    color: orange;
+}
