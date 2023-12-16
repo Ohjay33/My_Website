@@ -1,13 +1,13 @@
 .main{
     /* background-color: darkgray; */
-    height: 585px;
+    /* height: 585px; */
 }
 
 .topbar{
     display: flex;
     /* display: block; */
     justify-content:space-evenly;
-    height: 15%;
+    height: 12%;
     width: 100%;
     background-color: black;
     position: fixed;
@@ -135,6 +135,14 @@ img{
 
 .skills{
     /* display: flex; */
+    
+}
+
+.skillbox{
+    display: flex;
+flex-direction: column;
+align-items: center;
+height: 50%;
 }
 
 .skills > h2{
@@ -194,6 +202,13 @@ padding: 20px;
     /* border-color: burlywood; */
 }
 
+.projectbox{
+    display: flex;
+flex-direction: column;
+align-items: center;
+height: 50%;
+}
+
 .proj1{
     display: flex;
     flex-direction: column;
@@ -208,3 +223,4 @@ padding: 20px;
     font-size: larger;
     color: brown;
 }
+
