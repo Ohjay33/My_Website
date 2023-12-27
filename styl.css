@@ -7,9 +7,10 @@
     display: flex;
     /* display: block; */
     justify-content:space-evenly;
-    height: 12%;
+    height: 10%;
     width: 100%;
-    background-color: black;
+    border-style: inset;
+    background-color: lightgray;
     position: fixed;
 
     
@@ -41,6 +42,7 @@ h2{
     justify-content: space-around;
     
 }
+
 button{
     border: none;
     background-color: inherit;
@@ -91,9 +93,14 @@ img{
     margin-left: 100px;
     /* display: flex; */
     /* justify-content: space-around; */
-    padding-left: 10px;
+    /* padding-left: 20px; */
     margin-top: 12px;
     
+}
+
+.pictures > a{
+    width: 20px;
+    height: 20px;
 }
 
 .face{
@@ -107,7 +114,7 @@ img{
 }
 
 .github{
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .aboutme{
@@ -212,8 +219,8 @@ height: 50%;
 .proj1{
     display: flex;
     flex-direction: column;
-    border-style: inset;
-    border-color: black;
+    /* border-style: inset; */
+    /* border-color: transparent; */
 }
 
 .proj1 > a{
@@ -221,6 +228,6 @@ height: 50%;
     align-items: center;
     margin-left: 150px;
     font-size: larger;
-    color: brown;
+    color: white;
 }
 
