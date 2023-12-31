@@ -54,3 +54,46 @@ function out(element){
 // myobj.friends = [bob,carl]
 // myobj.friends[0].home = 'florida'
 // console.log(myobj)
+
+
+
+
+<---12/30/2023--->
+
+// <--------HOW TO USE A QUERYSELECTOR------>
+
+function constant(){
+    setTimeout(constant,3000)
+    var input = document.querySelector('input')
+    var myh1 = document.querySelector('h1')
+    myh1.innerText = input.value;
+}
+
+
+
+function myalert(){
+    console.log('this is a non popup alert')
+    var myh1 = document.querySelector('h1')
+    // adding and removing classes
+    myh1.classList.remove('dark')
+    myh1.classList.add('light')
+    constant()
+    // console.log(myh1)
+    // myh1.innerText = 'Hello Class'
+    
+    // var myp = document.querySelector('p, h1, div')
+    // console.log(myh1)
+    // myp.style.backgroundColor = 'red'
+}
+var clickCount = 0
+function complicated(){
+    if(clickCount == 0){
+        //do onething
+        clickCount++
+    }else{
+        //do something else
+    }
+}
+
+
+
