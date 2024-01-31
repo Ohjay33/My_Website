@@ -7,7 +7,7 @@
     display: flex;
     /* display: block; */
     justify-content:space-evenly;
-    height: 10%;
+    height: auto;
     width: 100%;
     border-style: inset;
     background-color: lightgray;
@@ -79,7 +79,7 @@ p{
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 556px;
+height: auto;
 width: 100%;
 /* box-shadow: 2px 2px 1px ; */
 
@@ -91,8 +91,8 @@ width: 100%;
 }
 
 img{
-    width: 20px;
-    height: 20px;
+    width: 100%;
+    height: auto;
     /* align-items:center; */
     margin-top: 18px;
     /* margin-left: 40px; */
@@ -232,8 +232,8 @@ padding: 20px;
 
 
 .proj-pic{
-    width: 240px;
-    height: 365px;
+    width: 100%;
+    height: auto;
     background-color:antiquewhite;
     border-radius: 8%;
     box-shadow: 3px 3px 2px ;
@@ -246,7 +246,7 @@ padding: 20px;
     display: flex;
 flex-direction: column;
 align-items: center;
-height: 485px;
+height: auto;
 width: 100%;
 }
 
@@ -319,18 +319,18 @@ transition: 1s ease;
   }
 
 #github-logo{
-    height: 70px;
-    width: 70px;
+    height: auto;
+    width: 100%;
 }
 
 #link-logo{
-    height: 70px;
-    width: 70px;
+    height: auto;
+    width: 100%;
 }
 
 #mail-logo{
-    height: 70px;
-    width: 70px;
+    height: auto;
+    width: 100%;
     
 }
 
