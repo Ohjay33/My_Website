@@ -7,7 +7,7 @@
     display: flex;
     /* display: block; */
     justify-content:space-evenly;
-    max-height: 85px;
+    max-height: 69px;
     width: 100%;
     border-style: inset;
     background-color: lightgray;
@@ -56,7 +56,7 @@ button{
     border: none;
     background-color: inherit;
     padding: 14px 28px;
-    font-size: 26px;
+    font-size: 2vw;
     cursor: pointer;
     display: inline-block;
     color: black;
@@ -190,30 +190,32 @@ display: flex;
 border-color: orange;
 border-style: inset;
 color: black;
-font-size: 3vw;
+font-size: 2vw;
 /* width: 300px;
 height:150px ; */
 padding: 20px;
 }
 
 .skill2 > p{
-font-size: larger;
+/* font-size: larger; */
+font-size: 2vw;
 border-color: orange;
 border-style:inset;
 color: black;
-width: 300px;
-height: 150px;
+/* width: 300px; */
+/* height: 150px; */
 padding: 20px;
 
 }
 
 .skill3 > p{
-    font-size: larger;
+    /* font-size: larger; */
+font-size: 2vw;
 border-color: orange;
 border-style: inset;
 color: black;
-height: 150px;
-width: 300px;
+/* height: 150px; */
+/* width: 300px; */
 padding: 20px;
 }
 
