@@ -24,6 +24,7 @@ h1{
     text-align: center;
     margin-top: 95px;
     font-family: "Cherry Cream Soda";
+    font-size: 3vw;
 }
 
 h2{
@@ -137,8 +138,8 @@ img{
 }
 
 .aboutme > img{
-    height: 291px;
-    width: 242px;
+    height: 475px;
+    width: 290px;
     padding-right: 20px;
     margin-left: 40px ;
     border-radius: 225px;
@@ -146,8 +147,9 @@ img{
 }
 
 .aboutme > p{
-    width: 100%;
-    height: auto;
+    font-size: 2vw;
+     max-width: 528px; 
+    height: auto; 
 }
 
 .github{
