@@ -32,6 +32,7 @@ h2{
     font-weight: bolder;
     text-align: center;
     font-family: "Cherry Cream Soda";
+    font-size: 2vw;
 }
 
 h3{
@@ -172,8 +173,9 @@ width: 100%;
 }
 
 .skills > h2{
-    font-size: xx-large;
+    /* font-size: xx-large; */
     color: black;
+    font-size: 2vw;
 }
 
 .myskills{
@@ -183,13 +185,14 @@ display: flex;
 }
 
 .skill1 > p{
-font-size:larger;
+/* font-size:larger; */
 /* border-right: 5px; */
 border-color: orange;
 border-style: inset;
 color: black;
-width: 300px;
-height:150px ;
+font-size: 3vw;
+/* width: 300px;
+height:150px ; */
 padding: 20px;
 }
 
