@@ -7,7 +7,7 @@
     display: flex;
     /* display: block; */
     justify-content:space-evenly;
-    height: auto;
+    max-height: 85px;
     width: 100%;
     border-style: inset;
     background-color: lightgray;
@@ -54,7 +54,7 @@ button{
     border: none;
     background-color: inherit;
     padding: 14px 28px;
-    font-size: 19px;
+    font-size: 26px;
     cursor: pointer;
     display: inline-block;
     color: black;
