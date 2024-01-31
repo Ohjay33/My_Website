@@ -147,6 +147,7 @@ img{
 
 .aboutme > p{
     width: 100%;
+    height: auto;
 }
 
 .github{
