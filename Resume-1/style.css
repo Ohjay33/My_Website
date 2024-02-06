@@ -28,7 +28,7 @@ ul {
   .resume {
     margin: 0 auto;
     background: #fdfdfd;
-    height: 942px;
+    height: 100%;
     width: 850px;
     display: grid;
     grid-template-columns: 10fr 4fr;
@@ -122,7 +122,7 @@ ul {
     margin: 1rem 0 0.2rem 0;
     font-size: 20px;
     color: rgb(85, 85, 225);
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
   }
   
   .section-title {
